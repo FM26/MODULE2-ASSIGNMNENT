@@ -1,0 +1,46 @@
+	*{
+		box-sizing: border-box;
+	}
+h2{
+	text-align: center;
+}
+div{
+ width: 500px;
+ border: 1px solid black;
+ background-color: grey;
+
+}
+h3{
+	text-align: right;
+	border: 1px solid black;
+}
+.sport{
+	float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 200px;
+}
+#bs{
+	background-color: yellow;
+}
+#ft{
+	background-color: red;
+}
+#cr{
+	background-color: pink;
+}
+@media  (min-width: 992px) {
+  .sport{
+width: 33.3%%;
+  }
+}
+@media  (min-width: 768px) and  (max-width:991){
+  .sport{
+    width:50%;
+  }
+}
+@media  (max-width: 767px) {
+  .sport{
+width: 80%;
+  }
+}
